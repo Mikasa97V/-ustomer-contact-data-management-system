@@ -1,0 +1,287 @@
+.header-wrap {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-column-gap: 53px;
+    -moz-column-gap: 53px;
+    column-gap: 53px;
+    margin-bottom: 40px;
+    padding: 20px;
+
+    background: var(--white);
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+}
+
+.header-title-wrap {
+    position: absolute;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.header-title {
+    font: normal 400 32px / 44px "Open Sans", sans-serif;
+    color: var(--black);
+}
+
+.main-wrap{
+    padding: 0 20px;
+}
+
+.content-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 122px;
+    -moz-column-gap: 122px;
+    column-gap: 122px;
+    padding: 40px;
+    margin-bottom: 50px;
+
+    background: var(--white);
+}
+
+.client-content-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 15px;
+    max-width: 335px;
+}
+
+.contact-row-date {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.contact-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+
+    font: normal 400 16px / 22px "Open Sans", sans-serif;
+}
+
+.row-title,
+.data-text {
+    color: var(--black);
+}
+
+.row-text,
+.time-text {
+    color: var(--txt_grey);
+}
+
+.row-id-title {
+    font: normal 700 16px / 22px "Open Sans", sans-serif;
+    color: var(--black);
+}
+
+.row-data-text-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+}
+
+.client-contact-list-title {
+    margin-bottom: 25px;
+
+    font: normal 400 16px / 22px "Open Sans", sans-serif;
+    color: var(--black);
+}
+
+.contact-row-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.contact-list-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.contacts-row-icon {
+    height: 16px;
+}
+
+.contact-link {
+    font: normal 600 14px / 19px "Open Sans", sans-serif;
+    color: var(--black);
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-link:hover {
+    color: var(--firm);
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-link:visited {
+    color: var(--black);
+}
+
+.buttons-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.action-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 11px 26px 12px;
+
+    background: inherit;
+    border: 1px solid var(--firm);
+    color: var(--firm);
+    cursor: pointer;
+}
+
+.go-back-btn{
+    font-weight: 400;
+    color: var(--firm);
+}
+
+.action-buttons path {
+    fill: var(--firm);
+    -webkit-transition: fill 0.3s ease-in-out;
+    -o-transition: fill 0.3s ease-in-out;
+    transition: fill 0.3s ease-in-out;
+}
+
+.action-button-delete path {
+    fill: var(--red);
+    -webkit-transition: fill 0.3s ease-in-out;
+    -o-transition: fill 0.3s ease-in-out;
+    transition: fill 0.3s ease-in-out;
+}
+
+.action-buttons:hover,
+.action-buttons:hover .go-back-btn{
+    background: #B89EFF;
+    color: var(--white);
+    cursor: pointer;
+    -webkit-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.action-buttons:active,
+.action-buttons:active .go-back-btn {
+    background: #8052FF;
+    color: var(--white);
+}
+
+.action-buttons:hover path,
+.action-buttons:hover g,
+.action-buttons:active path,
+.action-buttons:active g {
+    fill: var(--white);
+    opacity: 1;
+    -webkit-transition: fill 0.3s ease-in-out;
+    -o-transition: fill 0.3s ease-in-out;
+    transition: fill 0.3s ease-in-out;
+}
+
+
+.action-buttons:active {
+    border-color: #B89EFF;
+    background: #8052FF;
+}
+
+.action-button-delete:hover,
+.action-button-delete:active {
+    background: var(--red);
+    border-color: var(--red);
+    -webkit-transition: background 0.3s ease-in-out, borderColor 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out, borderColor 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out, borderColor 0.3s ease-in-out;
+}
+
+.action-buttons a,
+.action-buttons:hover a,
+.action-buttons:focus a,
+.action-buttons:visited a {
+    font-weight: 400;
+}
+
+.spinner-btn-customer-edit .path {
+    stroke: var(--firm);
+}
+
+.spinner-btn-customer-delete .path {
+    stroke: var(--red);
+}
+
+.action-button-edit:hover .path,
+.action-button-delete:hover .path {
+    stroke: var(--white);
+}
+
+.spinner-btn-save-customer {
+    display: none;
+}
+
+.spinner-btn-modal-save-customer {
+    stroke: var(--white);
+}
+
+.separate-line {
+    display: none;
+}
+
+.contacts-row-link {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

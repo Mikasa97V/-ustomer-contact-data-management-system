@@ -1,0 +1,100 @@
+@media (max-width: 620px) {
+    .add-new-client-modal {
+        width: 400px;
+    }
+
+    .modal-title {
+        font-size: 16px;
+    }
+
+    .modal-client-id {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 510px) {
+    .add-new-client-modal {
+        width: 350px;
+    }
+
+    .modal-title {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .modal-client-id {
+        font-size: 10px;
+    }
+
+    .form-wrap {
+        margin-bottom: 10px;
+    }
+
+    .form-wrap__field {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .choices__inner {
+        width: 70px;
+    }
+
+    .choices__list--single .choices__item {
+        font-size: 10px;
+    }
+
+    .inputs {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .add-new-client-modal {
+        width: 300px;
+        height: 400px;
+    }
+
+    .add-contact-wrap {
+        width: calc(100% - 30px);
+    }
+
+    .modal-title {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .modal-client-id {
+        font-size: 10px;
+    }
+
+    .form-wrap {
+        margin-bottom: 10px;
+    }
+
+    .form-wrap__field {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .choices__inner {
+        width: 70px;
+    }
+
+    .choices__list--single .choices__item {
+        font-size: 10px;
+    }
+
+    .inputs {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .close-modal-new-client-btn {
+        top: 9px;
+        right: 9px;
+    }
+}
+
